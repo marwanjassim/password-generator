@@ -20,3 +20,4 @@ Marwan Jassim
 
 # License
 This project is licensed under the MIT License
+https://github.com/marwanjassim/password-generator.git
