@@ -1,0 +1,10 @@
+HTML
+
+<p id="test">Text here!</p>
+
+
+JS
+
+var testTag = document.getElementById("test")
+console.log(testTag.innerHTML) // Text here!
+testTag.innerHTML = "Other text"

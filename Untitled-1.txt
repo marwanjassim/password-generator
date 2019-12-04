@@ -1,0 +1,47 @@
+function doMakePassword() {
+    var length = document.getElementById("lengthField").value;
+
+    var useSpecial = document.getElementById("useSpecialCheckbox").checked;
+    ...
+    ...
+    ...
+
+    passwordOutputTextbox.value = makePassword(length, useSpecial, useNumber, ...)
+}
+
+function makePassword(
+    length,
+    useSpecial,
+    useNumber,
+    ...
+) {
+    var password = "";
+
+    var specialChars = [" ", "!" "\"", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":;<=>?@[\]^_`{|}~]
+    var numbers = ["1", "2"...]
+    var lowerCase = [ "a", "b" ... ]
+    var upperCase = [ "A". ..]
+
+    if (!useSpecial && !userNumber && !useLowercase && !useUppercase) {
+        alert("You must select at least 1 type");
+        return;
+    }
+
+    var passwordChars = []
+    if (useSpecial) {
+        passwordChars = passwordChars.concat(specialChars)
+    }
+
+    if (useNumber) {
+        passwordChars = passwordChars.concat(numbers)
+    }
+
+    // passwordChars = ["!", "%", ]
+
+    if uselower
+
+    if useUpper
+
+
+    for i = 0; i < length; i++
+        password = password.concat()

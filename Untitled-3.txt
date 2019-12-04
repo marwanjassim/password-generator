@@ -1,0 +1,5 @@
+1. Make a list of characters your password can use.
+2. For each character from 0....length:
+ choose a random number from 0 to (size of password characters array)
+ append passwordchars[random number] to the password
+3. return passwo
