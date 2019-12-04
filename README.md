@@ -1,5 +1,5 @@
-# Responsive portfolio
-This is my portfolio page. I rebuilt it using Bootstrap to be responsive.
+# PASSWORD GENERATOR
+This is my password generator, it generates passwords more than 120 charactars.
 
 ![Password generator](pass.jpg)
 ![Password generator](pass1.jpg)
