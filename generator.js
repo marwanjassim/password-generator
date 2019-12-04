@@ -1,4 +1,4 @@
-function doMakePassword() {
+ function doMakePassword() {
     var length = prompt("Enter password length:")
     if (length < 8 || length > 128) {
         alert("Length must be between 8 and 128")
